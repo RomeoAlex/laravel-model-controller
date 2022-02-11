@@ -9,12 +9,22 @@ body {
   font-size: medium;
 }
 
-.beautify {
-  color: slateblue;
-  font-weight: bold;
+.my_container {
+  width: 60%;
+  margin: auto;
 }
 
-.beautify {
+.my_container .movie-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.my_container .movie-container .single-movie {
+  width: 33.3333333333%;
+  padding: 20px;
+}
+
+.my_container .movie-container .single-movie .beautify {
   color: slateblue;
   font-weight: bold;
 }

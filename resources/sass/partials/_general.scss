@@ -4,13 +4,25 @@
     box-sizing: border-box;
 }
 body{
-
+    
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
 }
-.beautify{
-
-    color: slateblue;
-    font-weight: bold;
-    
+.my_container{
+    width:60%;
+    margin: auto;
+    .movie-container{
+        display: flex;
+        flex-wrap: wrap;
+        .single-movie{
+            width: calc(100%/3);
+            padding: 20px;
+            .beautify{
+        
+                color: slateblue;
+                font-weight: bold;
+                
+            }
+        }
+    }
 }
