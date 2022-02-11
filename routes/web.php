@@ -12,7 +12,5 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-Route::get('/', function () {
-    return view('welcome');
-});
+// dopo aver installato tramite riga di comando la Classe HomeController nei Controller di Laravel la richiamno nella route
+Route::get('/', 'HomeController@Index');
